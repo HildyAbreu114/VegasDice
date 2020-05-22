@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649FB4712478630F007A925F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FB4702478630F007A925F /* AppDelegate.swift */; };
+		649FB4732478630F007A925F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FB4722478630F007A925F /* SceneDelegate.swift */; };
+		649FB4752478630F007A925F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FB4742478630F007A925F /* ViewController.swift */; };
+		649FB4782478630F007A925F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649FB4762478630F007A925F /* Main.storyboard */; };
+		649FB47A24786310007A925F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649FB47924786310007A925F /* Assets.xcassets */; };
+		649FB47D24786310007A925F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649FB47B24786310007A925F /* LaunchScreen.storyboard */; };
+		649FB48824786310007A925F /* VegasDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FB48724786310007A925F /* VegasDiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649FB48424786310007A925F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649FB4652478630F007A925F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649FB46C2478630F007A925F;
+			remoteInfo = VegasDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		649FB46D2478630F007A925F /* VegasDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegasDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649FB4702478630F007A925F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		649FB4722478630F007A925F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		649FB4742478630F007A925F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		649FB4772478630F007A925F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		649FB47924786310007A925F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		649FB47C24786310007A925F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		649FB47E24786310007A925F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649FB48324786310007A925F /* VegasDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegasDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649FB48724786310007A925F /* VegasDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegasDiceTests.swift; sourceTree = "<group>"; };
+		649FB48924786310007A925F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649FB46A2478630F007A925F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649FB48024786310007A925F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649FB4642478630F007A925F = {
+			isa = PBXGroup;
+			children = (
+				649FB46F2478630F007A925F /* VegasDice */,
+				649FB48624786310007A925F /* VegasDiceTests */,
+				649FB46E2478630F007A925F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		649FB46E2478630F007A925F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649FB46D2478630F007A925F /* VegasDice.app */,
+				649FB48324786310007A925F /* VegasDiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649FB46F2478630F007A925F /* VegasDice */ = {
+			isa = PBXGroup;
+			children = (
+				649FB4702478630F007A925F /* AppDelegate.swift */,
+				649FB4722478630F007A925F /* SceneDelegate.swift */,
+				649FB4742478630F007A925F /* ViewController.swift */,
+				649FB4762478630F007A925F /* Main.storyboard */,
+				649FB47924786310007A925F /* Assets.xcassets */,
+				649FB47B24786310007A925F /* LaunchScreen.storyboard */,
+				649FB47E24786310007A925F /* Info.plist */,
+			);
+			path = VegasDice;
+			sourceTree = "<group>";
+		};
+		649FB48624786310007A925F /* VegasDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				649FB48724786310007A925F /* VegasDiceTests.swift */,
+				649FB48924786310007A925F /* Info.plist */,
+			);
+			path = VegasDiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649FB46C2478630F007A925F /* VegasDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649FB48C24786310007A925F /* Build configuration list for PBXNativeTarget "VegasDice" */;
+			buildPhases = (
+				649FB4692478630F007A925F /* Sources */,
+				649FB46A2478630F007A925F /* Frameworks */,
+				649FB46B2478630F007A925F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VegasDice;
+			productName = VegasDice;
+			productReference = 649FB46D2478630F007A925F /* VegasDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		649FB48224786310007A925F /* VegasDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649FB48F24786310007A925F /* Build configuration list for PBXNativeTarget "VegasDiceTests" */;
+			buildPhases = (
+				649FB47F24786310007A925F /* Sources */,
+				649FB48024786310007A925F /* Frameworks */,
+				649FB48124786310007A925F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649FB48524786310007A925F /* PBXTargetDependency */,
+			);
+			name = VegasDiceTests;
+			productName = VegasDiceTests;
+			productReference = 649FB48324786310007A925F /* VegasDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649FB4652478630F007A925F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "hildy abreu";
+				TargetAttributes = {
+					649FB46C2478630F007A925F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					649FB48224786310007A925F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 649FB46C2478630F007A925F;
+					};
+				};
+			};
+			buildConfigurationList = 649FB4682478630F007A925F /* Build configuration list for PBXProject "VegasDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 649FB4642478630F007A925F;
+			productRefGroup = 649FB46E2478630F007A925F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649FB46C2478630F007A925F /* VegasDice */,
+				649FB48224786310007A925F /* VegasDiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649FB46B2478630F007A925F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FB47D24786310007A925F /* LaunchScreen.storyboard in Resources */,
+				649FB47A24786310007A925F /* Assets.xcassets in Resources */,
+				649FB4782478630F007A925F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649FB48124786310007A925F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649FB4692478630F007A925F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FB4752478630F007A925F /* ViewController.swift in Sources */,
+				649FB4712478630F007A925F /* AppDelegate.swift in Sources */,
+				649FB4732478630F007A925F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649FB47F24786310007A925F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FB48824786310007A925F /* VegasDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649FB48524786310007A925F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649FB46C2478630F007A925F /* VegasDice */;
+			targetProxy = 649FB48424786310007A925F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		649FB4762478630F007A925F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649FB4772478630F007A925F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		649FB47B24786310007A925F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649FB47C24786310007A925F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649FB48A24786310007A925F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		649FB48B24786310007A925F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649FB48D24786310007A925F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VegasDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = create.VegasDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		649FB48E24786310007A925F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VegasDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = create.VegasDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		649FB49024786310007A925F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VegasDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = create.VegasDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegasDice.app/VegasDice";
+			};
+			name = Debug;
+		};
+		649FB49124786310007A925F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VegasDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = create.VegasDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegasDice.app/VegasDice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649FB4682478630F007A925F /* Build configuration list for PBXProject "VegasDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649FB48A24786310007A925F /* Debug */,
+				649FB48B24786310007A925F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649FB48C24786310007A925F /* Build configuration list for PBXNativeTarget "VegasDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649FB48D24786310007A925F /* Debug */,
+				649FB48E24786310007A925F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649FB48F24786310007A925F /* Build configuration list for PBXNativeTarget "VegasDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649FB49024786310007A925F /* Debug */,
+				649FB49124786310007A925F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649FB4652478630F007A925F /* Project object */;
+}
